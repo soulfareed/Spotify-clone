@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Playfair+Display:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+nav {
+  font-family: "Fredoka", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 55px;
+  background-color: black;
+  color: aliceblue;
+}
+nav ul li {
+  padding: 0 14px;
+}
+
+.brand img {
+  height: 40px;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.container {
+  min-height: 62vh;
+  background-color: black;
+  color: white;
+  font-family: "Fredoka", sans-serif;
+  display: flex;
+  margin: 20px auto;
+  width: 70%;
+  border-radius: 15px;
+  padding: 30px;
+  background-image: url("bg2.jpg");
+  background-position: 36rem;
+  background-size: 35%;
+  background-repeat: no-repeat;
+}
+
+.Bottom {
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 40px;
+  font-size: xx-large;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.songItem {
+  height: 8%;
+  display: flex;
+  background-color: white;
+  width: 75%;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.songItem img {
+  width: 35px;
+  margin: 0 20px;
+  border-radius: 20px;
+}
+
+.timestamp {
+  margin: 0 20px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+.songItemcontainer {
+  margin-top: 40px;
+}
+
+.songInfo {
+  position: absolute;
+  margin-bottom: 35px;
+  left: 11vw;
+  font-family: "Fredoka", sans-serif;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.7s ease-in;
+}
+#myProgressBar {
+  margin-bottom: 4px;
+}
+#gif {
+  margin-bottom: -10px;
+}
